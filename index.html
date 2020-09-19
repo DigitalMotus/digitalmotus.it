@@ -28,14 +28,14 @@
 									</nav>
 								</div>
 								<div class="it-header-slim-right-zone">
-									<div class="nav-item dropdown">
+									<div id="dpm" class="nav-item dropdown">
 										<a class="nav-link dropdown-toggle" href="" data-toggle="dropdown" aria-expanded="false">
 											<span>ITA</span>
 											<svg class="icon d-none d-lg-block">
 												<use xlink:href="svg/sprite.svg#it-expand"></use>
 											</svg>
 										</a>
-										<div class="dropdown-menu" style="min-width:unset !important">
+										<div id="dpmw" oncliu class="dropdown-menu" style="min-width:unset !important">
 											<div class="row">
 												<div class="col-12">
 													<div class="link-list-wrapper">
@@ -649,5 +649,10 @@
 		</div>
 		<!-- JS -->
 		<script src="js/bootstrap-italia.bundle.min.js"></script>
+		<script>
+			$('#dpm').on('show.bs.dropdown',(event)=>{
+				$.when(event).done( $('#dpmw').css('right','0px') );
+			});
+		</script>
 	</body>
 </html>
