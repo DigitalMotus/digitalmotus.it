@@ -5,7 +5,6 @@
 		<!-- Required meta tags -->
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
 		<!-- CSS -->
 		<link rel="stylesheet" href="/css/bootstrap-italia.min.css">
 	</head>
@@ -148,83 +147,361 @@
 		   </div>
 		</div>
 		<!--News-->
-		<div class="container">
-			<ul class="nav nav-tabs nav-tabs-icon-text auto">
-				<li class="nav-item"><a class="nav-link active" href="#"><svg class="icon icon-primary"><use xlink:href="/bootstrap-italia/dist/svg/sprite.svg#it-link"></use></svg>Pubbliche Amministrazioni</a></li>
-				<li class="nav-item"><a class="nav-link" href="#"><svg class="icon icon-primary"><use xlink:href="/bootstrap-italia/dist/svg/sprite.svg#it-calendar"></use></svg>Privati</a></li>
-			</ul>		
+		<h2 class="text-center pt-5">News</h2>
+		<div class="container shadow-sm p-3 mb-5 bg-white my-5">
+			<nav>
+				<div class="nav nav-tabs overflow-hidden" id="nav-tab" role="tablist">
+					<a class="nav-item nav-link active" id="nav-tab1-tab" data-toggle="tab" href="#nav-tab1" role="tab" aria-controls="nav-tab1" aria-selected="true">Scuole</a>
+					<a class="nav-item nav-link" id="nav-tab2-tab" data-toggle="tab" href="#nav-tab2" role="tab" aria-controls="nav-tab2" aria-selected="false">Comuni</a>
+					<a class="nav-item nav-link" id="nav-tab3-tab" data-toggle="tab" href="#nav-tab3" role="tab" aria-controls="nav-tab3" aria-selected="false">Privati</a>
+				</div>
+			</nav>
+			<div class="tab-content" style="height:320px" id="nav-tabContent">
+				<div class="tab-pane align-self-center p-4 fade show active" id="nav-tab1" role="tabpanel" aria-labelledby="nav-tab1-tab">
+					<p class="text-center align-middle m-0">Ancora nessuna News inerente le scuole</p>
+				</div>
+				<div class="tab-pane align-self-center p-4 fade" id="nav-tab2" role="tabpanel" aria-labelledby="nav-tab2-tab">
+					<p class="text-center align-middle m-0">Ancora nessuna News inerente i comuni</p>
+				</div>
+				<div class="tab-pane align-self-center p-4 fade" id="nav-tab3" role="tabpanel" aria-labelledby="nav-tab3-tab">
+					<p class="text-center align-middle m-0">Ancora nessuna News inerente i privati</p>
+				</div>
+			</div>
 		</div>
+		<!--RoadMap-->
+		<h2 class="text-center pt-5">La nostra Roadmap</h2>
+		<div class="it-timeline-wrapper my-5">
+			<div class="row">
+				<div class="col-12">
+					<div class="timeline-element">
+						<div class="it-pin-wrapper it-evidence">
+							<div class="pin-icon">
+								<svg class="icon">
+									<use xlink:href="/svg/sprite.svg#it-code-circle"></use>
+								</svg>
+							</div>
+							<div class="pin-text"><span>S1 2020</span></div>
+						</div>
+						<div class="card-wrapper">
+							<div class="card">
+								<div class="card-body">
+									<div class="category-top">
+										<a class="category text-decoration-none">Ideazione</a>
+										<span class="data">01/06/2020</span>
+									</div>
+									<h5 class="card-title big-heading">Ideazione Progetto</h5>
+									<p class="card-text">Il team di DigitalITA si è riunito discutere la strutturaione del software.</p>
+									<span class="card-signature">di Nunzio Giglio</span>
+								</div>
+							</div>
+						</div>
+						</div>
+				</div>
+				<div class="col-12">
+					<div class="timeline-element">
+						<span class="it-now-label d-none d-lg-flex">Oggi</span>
+						<div class="it-pin-wrapper it-now">
+							<div class="pin-icon">
+								<svg class="icon">
+								<use xlink:href="/svg/sprite.svg#it-code-circle"></use>
+								</svg>
+							</div>
+							<div class="pin-text"><span>S2 2020</span></div>
+						</div>
+						<div class="card-wrapper">
+							<div class="card">
+								<div class="card-body">
+									<div class="category-top">
+										<a class="category">Sviluppo</a>
+										<span class="data">01/07/2021</span>
+									</div>
+									<h5 class="card-title">Sviluppo DIT-Edu</h5>
+									<p class="card-text">Il team di sviluppo ha iniziato a sviluppare il suo primo CMS destinato alle scuole, allo scopo di riunire tutti i bisogni di una scuolla in un unico software.</p>
+									<span class="card-signature">di Enrico Moschella</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-12">
+					<div class="timeline-element">
+						<div class="it-pin-wrapper">
+							<div class="pin-icon">
+								<svg class="icon">
+								<use xlink:href="/svg/sprite.svg#it-code-circle"></use>
+								</svg>
+							</div>
+							<div class="pin-text"><span>Q1 2021</span></div>
+						</div>
+						<div class="card-wrapper">
+							<div class="card">
+								<div class="card-body">
+									<div class="category-top">
+										<a class="category">Testing</a>
+										<span class="data">01/01/2021</span>
+									</div>
+									<h5 class="card-title big-heading">Testing DIT-Edu CMS SS2</h5>
+									<p class="card-text">Verrà effettuato il testing e verrà rilasciata la prima beta stabile e sicura del software per le scuole secondarie di secondo grado.</p>
+									<span class="card-signature">di Fabio Turiano</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-12">
+					<div class="timeline-element">
+						<div class="it-pin-wrapper">
+							<div class="pin-icon">
+								<svg class="icon">
+								<use xlink:href="/svg/sprite.svg#it-code-circle"></use>
+								</svg>
+							</div>
+							<div class="pin-text"><span>T2 2021</span></div>
+						</div>
+						<div class="card-wrapper">
+							<div class="card">
+								<div class="card-body">
+									<div class="category-top">
+										<a class="category">Rilascio</a>
+										<span class="data">01/04/2021</span>
+									</div>
+									<h5 class="card-title big-heading">Rilascio DIT-Edu CMS SS2</h5>
+									<p class="card-text">Verrà rilasciata la versione stabile del software per le scuole secondarie di secondo grado.</p>
+									<span class="card-signature">di Fabio Turiano</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-12">
+					<div class="timeline-element">
+						<div class="it-pin-wrapper">
+							<div class="pin-icon">
+								<svg class="icon">
+								<use xlink:href="/svg/sprite.svg#it-code-circle"></use>
+								</svg>
+							</div>
+							<div class="pin-text"><span>T3 2021</span></div>
+						</div>
+						<div class="card-wrapper">
+							<div class="card">
+								<div class="card-body">
+									<div class="category-top">
+										<a class="category">Testing</a>
+										<span class="data">01/07/2021</span>
+									</div>
+									<h5 class="card-title big-heading">Testing DIT-Edu CMS SS1</h5>
+									<p class="card-text">Verrà effettuato il testing del software per le scuole secondarie di primo grado.</p>
+									<span class="card-signature">di Fabio Turiano</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-12">
+					<div class="timeline-element">
+						<div class="it-pin-wrapper">
+							<div class="pin-icon">
+								<svg class="icon">
+								<use xlink:href="/svg/sprite.svg#it-code-circle"></use>
+								</svg>
+							</div>
+							<div class="pin-text"><span>T4 2021</span></div>
+						</div>
+						<div class="card-wrapper">
+							<div class="card">
+								<div class="card-body">
+									<div class="category-top">
+										<a class="category">Rilascio</a>
+										<span class="data">01/10/2021</span>
+									</div>
+									<h5 class="card-title big-heading">Rilascio DIT-Edu CMS SS1</h5>
+									<p class="card-text">Verrà rilasciata la versione stabile del software per le scuole secondarie di primo grado.</p>
+									<span class="card-signature">di Fabio Turiano</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-12">
+					<div class="timeline-element">
+						<div class="it-pin-wrapper">
+							<div class="pin-icon">
+								<svg class="icon">
+								<use xlink:href="/svg/sprite.svg#it-code-circle"></use>
+								</svg>
+							</div>
+							<div class="pin-text"><span>T1 2022</span></div>
+						</div>
+						<div class="card-wrapper">
+							<div class="card">
+								<div class="card-body">
+									<div class="category-top">
+										<a class="category">Implementazione</a>
+										<span class="data">01/01/2022</span>
+									</div>
+									<h5 class="card-title big-heading">Implementazione DIT-Pa Blockchain</h5>
+									<p class="card-text">Verrà implementato il software per Pubblica Amministrazione basato sulla Blockchain.</p>
+									<span class="card-signature">di Fabio Turiano</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-12">
+					<div class="timeline-element">
+						<div class="it-pin-wrapper">
+							<div class="pin-icon">
+								<svg class="icon">
+								<use xlink:href="/svg/sprite.svg#it-code-circle"></use>
+								</svg>
+							</div>
+							<div class="pin-text"><span>T2 2022</span></div>
+						</div>
+						<div class="card-wrapper">
+							<div class="card">
+								<div class="card-body">
+									<div class="category-top">
+										<a class="category">Testing</a>
+										<span class="data">01/04/2022</span>
+									</div>
+									<h5 class="card-title big-heading">Testing DIT-Pa Blockchain</h5>
+									<p class="card-text">Verrà effettuato il testing del software sicuro per le PA locali e provinciali.</p>
+									<span class="card-signature">di Fabio Turiano</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-12">
+					<div class="timeline-element">
+						<div class="it-pin-wrapper">
+							<div class="pin-icon">
+								<svg class="icon">
+								<use xlink:href="/svg/sprite.svg#it-code-circle"></use>
+								</svg>
+							</div>
+							<div class="pin-text"><span>T3 2022</span></div>
+						</div>
+						<div class="card-wrapper">
+							<div class="card">
+								<div class="card-body">
+									<div class="category-top">
+										<a class="category">Rilasciato</a>
+										<span class="data">01/07/2022</span>
+									</div>
+									<h5 class="card-title big-heading">Rilascio DIT-Pa Blockchain</h5>
+									<p class="card-text">Verrà rilasciato il software per le scuole per le PA a livello nazionale.</p>
+									<span class="card-signature">di Fabio Turiano</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-12">
+					<div class="timeline-element">
+						<div class="it-pin-wrapper">
+							<div class="pin-icon">
+								<svg class="icon">
+								<use xlink:href="/svg/sprite.svg#it-code-circle"></use>
+								</svg>
+							</div>
+							<div class="pin-text"><span>T4 2022</span></div>
+						</div>
+						<div class="card-wrapper">
+							<div class="card">
+								<div class="card-body">
+									<div class="category-top">
+										<a class="category">Ricerca</a>
+										<span class="data">01/10/2022</span>
+									</div>
+									<h5 class="card-title big-heading">Ricerca per DIT-Io</h5>
+									<p class="card-text">Verrà effettuata un analisi per un possibile software gestionale per gli enti ospedalieri.</p>
+									<span class="card-signature">di Fabio Turiano</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>		
 		<!--Chi Siamo-->
-		<h2 class="text-center mt-5">Chi Siamo <small class="text-muted">I Fondatori</small></h2>
-		<div class="container mt-5">
-		  <div class="row">
-		    <div class="col-md-3 col-sm-12">
-					<!--Nunzio Giglio-->
-					<div class="card-wrapper">
-			      <div class="card">
-			        <div class="card-body">
-								<div class="d-flex justify-content-center">
-									<a class="avatar size-xl" href="https://www.linkedin.com/in/nunzio-giglio-725b76189/">
+		<div class="container it-carousel-wrapper it-carousel-landscape-abstract-three-cols py-5">
+			<div class="it-header-block">
+				<div class="it-header-block-title">
+					<h2 class="no_toc text-center pt-5 border-0">Chi Siamo <small class="text-muted">I Fondatori</small></h2>
+				</div>
+			</div>
+			<div class="it-carousel-all owl-carousel it-card-bg">
+				<div class="it-single-slide-wrapper">
+					<div class="card-wrapper card-space">
+						<div class="card card-bg d-block">
+							<div class="card-body h-100">
+								<div class="h-50 d-flex flex-wrap">
+									<a class="m-auto align-self-center avatar size-xl" href="https://www.linkedin.com/in/nunzio-giglio-725b76189/">
 								    <img src="https://media-exp1.licdn.com/dms/image/C5603AQHUDIe87UXaCg/profile-displayphoto-shrink_200_200/0?e=1605744000&v=beta&t=93OHwBUioWhSrZTwonZx2TD0aVeuHCWbxzYfx1O879w" alt="Nunzio Giglio">
 								  </a>
 								</div>
-			          <h5 class="mt-2 mb-0 card-title d-flex justify-content-center">Nunzio Giglio</h5>
-			          <p class="d-flex justify-content-center">CIO (Chief Information Officier)</p>
-			        </div>
-			      </div>
-			    </div>
-				</div>
-		    <div class="col-md-3 col-sm-12">
-					<!--Enrico Moschella-->
-					<div class="card-wrapper">
-						<div class="card">
-							<div class="card-body">
-								<div class="d-flex justify-content-center">
-									<a class="avatar size-xl" href="https://www.linkedin.com/in/enricomoschella/">
-										<img src="https://media-exp1.licdn.com/dms/image/C4D03AQHtp7129mlmbQ/profile-displayphoto-shrink_200_200/0?e=1605744000&v=beta&t=N7OoTK97orF91pG_0YeHJozY1jD7QGd9MZc15lF1Cb0" alt="Enrico Moschella">
-									</a>
+								<div class="h-50 d-flex flex-wrap">
+									<h5 class="w-100 mt-2 mb-0 card-title d-flex justify-content-center">Nunzio Giglio</h5>
+			          	<p class="w-100 d-flex justify-content-center text-nowrap">CIO (Chief Information Officier)</p>
 								</div>
-								<h5 class="mt-2 mb-0 card-title d-flex justify-content-center">Enrico Moschella</h5>
-								<p class="d-flex justify-content-center">PM (Project Manager)</p>
 							</div>
 						</div>
 					</div>
 				</div>
-		    <div class="col-md-3 col-sm-12">
-					<!--Fabio Turiano-->
-					<div class="card-wrapper">
-						<div class="card">
-							<div class="card-body">
-								<div class="d-flex justify-content-center">
-									<a class="avatar size-xl" href="https://www.linkedin.com/in/fabio-turiano-a2a946172/">
-										<img src="https://media-exp1.licdn.com/dms/image/C4D03AQF8LQUgtZG9iQ/profile-displayphoto-shrink_200_200/0?e=1605744000&v=beta&t=OaSOeZ_KQgvx5_smUFrDwRbtK76A6h1zYYOqZdVUoCo" alt="Fabio Turiano">
+				<div class="it-single-slide-wrapper">
+					<div class="card-wrapper card-space">
+						<div class="card card-bg d-block">
+							<div class="card-body h-100">
+								<div class="h-50 d-flex flex-wrap">
+									<a class="m-auto align-self-center avatar size-xl" href="https://www.linkedin.com/in/enricomoschella/">
+										<img src="/img/DSC09227.jpg" alt="Enrico Moschella">
 									</a>
 								</div>
-								<h5 class="mt-2 mb-0 card-title d-flex justify-content-center">Fabio Turiano</h5>
-								<p class="d-flex justify-content-center">CFO (Chief Financial Officier)</p>
+								<div class="h-50 d-flex flex-wrap">	
+									<h5 class="w-100 mt-2 mb-0 card-title d-flex justify-content-center">Enrico Moschella</h5>
+									<p class="w-100 d-flex justify-content-center text-nowrap">PM (Project Manager)</p>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-3 col-sm-12">
-					<!--Giuseppe Curcuruto-->
-					<div class="card-wrapper">
-						<div class="card">
-							<div class="card-body">
-								<div class="d-flex justify-content-center">
-									<a class="avatar avatar-primary size-xl" href="http://linkedin.com/in/giuseppe-curcuruto-36aba3155">
-										<p aria-hidden="true">GC</p>
-    								<span class="sr-only">Giuseppe Curcuruto</span>
-										<!--img src="" alt="Giuseppe Curcuruto"-->
+				<div class="it-single-slide-wrapper">
+					<div class="card-wrapper card-space">
+						<div class="card card-bg d-block">
+							<div class="card-body h-100">
+								<div class="h-50 d-flex flex-wrap">
+									<a class="m-auto align-self-center avatar size-xl" href="https://www.linkedin.com/in/fabio-turiano-a2a946172/">
+										<img src="/img/DSC09209.jpg" alt="Fabio Turiano">
 									</a>
 								</div>
-								<h5 class="mt-2 mb-0 card-title d-flex justify-content-center">Giuseppe Curcuruto</h5>
-								<p class="d-flex justify-content-center">RM (Relationships Manager)</p>
+								<div class="h-50 d-flex flex-wrap">	
+									<h5 class="w-100 mt-2 mb-0 card-title d-flex justify-content-center">Fabio Turiano</h5>
+									<p class="w-100 d-flex justify-content-center text-nowrap">CFO (Chief Financial Officier)</p>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-		  </div>
+				<div class="it-single-slide-wrapper">
+					<div class="card-wrapper card-space">
+						<div class="card card-bg d-block">
+							<div class="card-body h-100">
+								<div class="h-50 d-flex flex-wrap">
+									<a class="m-auto align-self-center avatar avatar-primary size-xl" href="http://linkedin.com/in/giuseppe-curcuruto-36aba3155">
+										<img src="/img/DSC09212.jpg" alt="Giuseppe Curcuruto">
+									</a>
+								</div>
+								<div class="h-50 d-flex flex-wrap">
+									<h5 class="w-100 mt-2 mb-0 card-title d-flex justify-content-center">Giuseppe Curcuruto</h5>
+									<p clas="w-100 d-flex justify-content-center text-nowrap">RM (Relationships Manager)</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 		<!--Footer-->
 		<footer class="it-footer">
@@ -269,12 +546,8 @@
 		            </h4>
 		            <div class="link-list-wrapper">
 		              <ul class="footer-list link-list clearfix">
-		                <li><a class="list-item" href="#" title="Vai alla pagina: Pagamenti">Pagamenti</a></li>
-		                <li><a class="list-item" href="#" title="Vai alla pagina: Sostegno">Sostegno</a></li>
-		                <li><a class="list-item" href="#" title="Vai alla pagina: Domande e iscrizioni">Domande e iscrizioni</a></li>
-		                <li><a class="list-item" href="#" title="Vai alla pagina: Segnalazioni">Segnalazioni</a></li>
-		                <li><a class="list-item" href="#" title="Vai alla pagina: Autorizzazioni e concessioni">Autorizzazioni e concessioni</a></li>
-		                <li><a class="list-item" href="#" title="Vai alla pagina: Certificati e dichiarazioni">Certificati e dichiarazioni</a></li>
+		                <li><a class="list-item" href="#" title="Vai alla pagina: Pagamenti">Scuole</a></li>
+		                <li><a class="list-item" href="#" title="Vai alla pagina: Sostegno">Comuni</a></li>
 		              </ul>
 		            </div>
 		          </div>
